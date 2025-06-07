@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f8fa;
+  color: #333;
+}
+
+input, button, select {
+  padding: 8px;
+  margin: 4px;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.dog-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+.dog-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 1rem;
+  border-radius: 8px;
+}
+
+.dog-info {
+  flex-grow: 1;
+}
+
+.favorite-btn {
+  background: none;
+  font-size: 2.5rem;
+  border: none;
+  cursor: pointer;
+  color: gold;
+}
+
+.favorite-btn:hover {
+  color: orange;
+}
+
+.dog-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* button.favorite {
+  background-color: #ffca28;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.favorite-button:hover {
+  color: orange;
+} */
+
+button.match {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+div.match {
+  background-color: rgb(197, 241, 177);
+  border: 1px solid rgb(150, 182, 135);
+}
+
+.dog-info p {
+  margin: 2px 0;
+}
+
+button.prev {
+  background-color: #4c5053;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button.next {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
