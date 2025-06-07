@@ -7,7 +7,7 @@ import {
   searchDogs,
 } from "../api/fetchApi";
 import DogCard from "../components/DogCard";
-import type { Dog, Location, DogWithLocation } from "../types";
+import type {Location, DogWithLocation } from "../types";
 
 // Fetch location data for multiple zip codes
 async function fetchLocations(zipCodes: string[]): Promise<Location[]> {
